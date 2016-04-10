@@ -9,7 +9,7 @@
 	}
 	if (isset($_GET["acentigrados"])) 
 	{
-		$valorIngresado=$GET["temperatura"];
+		$valorIngresado=$_GET["temperatura"];
 		$acentigrados=(($valorIngresado-32)*5)/9;
 		$muestro=$valorIngresado." grados Fahreinheit equivalen a :".$acentigrados." Centigrados.-";
 	}
